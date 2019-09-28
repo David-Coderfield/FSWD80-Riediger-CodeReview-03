@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Car Insurance</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER SECTION -->
+    <div class="header">
+      <div class="header-left"><img class="imgfill" src="img/logo.png" alt="logo"></div>
+      <div class="header-right"><img class="imgfill" src="img/banner.png" alt="banner"></div>
+    </div>
+    <!-- NAVBAR -->
+    <div class="nav">
+      <ul>
+        <li><a href="index.html" class="here">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </div>
+    <!-- MAIN -->
+    <div class="main">
+      <h1 class="white normal size4">Car Insurance</h1>
+      <!-- THE FORM -->
+      <div class="whitebox">
+        <h1 class="black center normal size4">Great coverage begins</h1>
+        <h1 class="black center normal size4">with a custom quote</h1>
+        <table class="formtable">
+          <tr>
+            <td><span class="size1">Your Name:</span><br><input name="name" id="name" title="Please enter your Name"></td>
+            <td><span class="size1">Age:</span><br><input name="age" id="age" pattern="[0-9]{3}" title="Only numbers allowed, maximum 3 digits"></td>
+          </tr>
+          <tr>
+            <td><span class="size1">Country:</span><br>
+              <select name="country" id="country">
+                <option value="Austria" id="Austria">Austria</option>
+                <option value="Hungary" id="Hungary">Hungary</option>
+                <option value="Greece" id="Greece">Greece</option>
+              </select>
+            </td>
+            <td><span class="size1">Horsepower of your car:</span><br><input name="ps" id="ps" pattern="[0-9]{3}" title="Only numbers allowed, maximum 3 digits"></td>
+          </tr>
+        </table>
+        <div class="center"><input type="button" value="Calculate" id="btn" class="size3"></div>
+        <p id="result" class="center size3"></p>
+      </div>
+      <div class="center">
+        <h2 class="size3">Un-complicating car coverage</h2>
+        <p>Understanding your coverage options shouldn't be so hard.</p>
+        <p>We'll guide you through available coverage types,</p>
+        <p>starting with who and what is covered.</p>
+      </div>
+    </div>
+    <!-- FLEXBOX (MAIN SECTION 2) -->
+    <div class="main2 flex">
+      <div class="box">
+        <h4 class="blue normal">What comes standard</h4>
+        <p class="size1">The coverage you need</p>
+        <ul>
+          <li class="size1">Bodily Injury Liability</li>
+          <li class="size1">Property Damage</li>
+          <li class="size1">Medical Payments</li>
+        </ul>
+        <p class="size1 bold">Benefits</p>
+        <p class="size1 gray">12-month rate guarantee | 24/7 costumer support | Lifetime Repair Guarantee</p>
+      </div>
+      <div class="box">
+        <h4 class="blue normal">Add-on protection & coverage</h4>
+        <p class="size1">For more peace of mind</p>
+        <ul>
+          <li class="size1">Better Car Replacement</li>
+          <li class="size1">Towing & Labor</li>
+          <li class="size1">Rental Car Coverage</li>
+        </ul>
+        <p class="size1 bold">Earned Benefits</p>
+        <p class="size1 gray">Accident Forgiveness<sup>1</sup> | New Car Repleasement&trade;</p>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <!-- FOOTER SECTION -->
+      <div class="bottomnav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+      <div class="align--right--center">
+        <img src="img/logo-inv.png" alt="Logo CF">
+      </div>
+      <p>David Riediger - CodeFactory 2019</p>
+    </footer>
+  </div>
+  <script src="js/js.js"></script>
+</body>
+
+</html>

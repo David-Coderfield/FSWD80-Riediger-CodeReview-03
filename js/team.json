@@ -1,0 +1,3 @@
+var teamMembers = `[{"name":"Fran", "email":"fran@index.com","image":"https://via.placeholder.com/100x120/0000FF/808080?text=Fran"},
+{"name":"Bill","email":"bill@index.com","image":"https://via.placeholder.com/100x120/00FF00/808080?text=Bill"},
+{"name":"Fritz", "email":"fritz@index.com","image":"https://via.placeholder.com/100x120/FF0000/808080?text=Fritz"}]`;
